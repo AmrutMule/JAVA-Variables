@@ -1,0 +1,21 @@
+package neww;
+
+public class Instancevariable {
+
+
+		int id;
+		String name;
+		double cont;
+		String address;
+		public static void main(String[] args) {
+			Instancevariable emp1=new Instancevariable();
+			emp1.id=1;
+			emp1.name="Amrut";
+			emp1.cont=777777;
+			emp1.address="MH";
+			
+			Localvariable.add();
+			System.out.println("Info of "+emp1.name+" "+emp1.id+" "+emp1.cont+" "+emp1.address);
+			
+		}
+	}
